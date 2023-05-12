@@ -22,7 +22,7 @@ const App = () => {
             <Toaster />
               <Navbar />
               <Routes>
-                <Route path="/" element={<ItemListContainer greeting={'Todos nuestros productos'}/>}/>
+                <Route path="/EntregaFinalReact-Iglesias" element={<ItemListContainer greeting={'Todos nuestros productos'}/>}/>
                 <Route path="/categoria/:categoryId" element={<ItemListContainer greeting={'Productos filtrados por categoria'}/>}/>
                 <Route path="/item/:itemId" element={<ItemDetailContainer />}/>
                 <Route path="/cart" element={<Cart />}/>

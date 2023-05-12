@@ -19,6 +19,7 @@ const ItemDetail = ({ id, nombre, imgpicture, categoria,  precio, stock }) => {
     const productQuantity = getProductQuantity(id)
 
     return (
+        <div className={style.card}>
         <article className={style.CardItem}>
             <header className={style.Header}>
                 <h2 className={style.ItemHeader}>
@@ -38,11 +39,12 @@ const ItemDetail = ({ id, nombre, imgpicture, categoria,  precio, stock }) => {
             </section>           
             <footer className={style.ItemFooter}>
                 
-                        <ItemCount onAdd={handleOnAdd} stock={stock} initial={productQuantity || 1}/>
+            <ItemCount onAdd={handleOnAdd} stock={stock} initial={productQuantity || 1}/>
                     
                 
             </footer>
         </article>
+        </div>
     )
 }
 

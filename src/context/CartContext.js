@@ -35,6 +35,7 @@ export const CartProvider = ({ children }) => {
         const updatedCart = cart.filter(prod => prod.id !== id)
         setCart(updatedCart)
     }
+  
     
     const getTotalQuantity = () => {
         let totalQuantity = 0
