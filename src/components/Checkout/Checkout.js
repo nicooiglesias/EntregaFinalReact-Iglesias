@@ -94,7 +94,6 @@ const Checkout = () => {
             <h1>Checkout</h1>
             <h2>Ingrese sus datos</h2>
             <ContactForm onConfirm={createOrder}/>
-            {/* <button onClick={createOrder}>Crear orden</button> */}
         </div>
     )
 }
