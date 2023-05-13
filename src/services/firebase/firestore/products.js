@@ -1,9 +1,8 @@
 import { getDocs, collection, query, where, getDoc, doc } from 'firebase/firestore'
 import { db } from '../firebaseConfig'
-import { createAdaptedProductFromFirestore } from '../../../adapters/createAdaptedProductFromFirestore'
+import { createAdaptedProductFromFirestore } from '../../../data/adapters/createAdaptedProductFromFirestore'
 
 export const getProducts = (id) => {
-    // return new Promise((resolve, reject) => {
         const productsRef = id 
             ? query(collection(db, 'productos'), where('categoria', '==', id))
             : collection(db, 'productos')

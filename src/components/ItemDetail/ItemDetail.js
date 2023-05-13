@@ -1,6 +1,6 @@
 import style from'./ItemDetail.module.css'
 import ItemCount from '../ItemCount/ItemCount'
-import { useCart } from '../../context/CartContext'
+import { useCart } from '../../data/context/CartContext'
 import { useNotification } from '../../notification/NotificationService'
 
 const ItemDetail = ({ id, nombre, imgpicture, categoria,  precio, stock }) => {

@@ -7,6 +7,11 @@
     background: wheat;
   }
   
+  .titulo{
+    font-size: 45px;
+    font-family: fantasy;
+    color: #c91134;
+  }
   .Categories {
     display: flex;
     justify-content: space-around;
@@ -47,7 +52,7 @@
     /* TODO */
     width: auto;
     padding: 12px;
-    font-size: 15px;
+    font-size: 20px;
     background: blue;
     border-radius: 8px;
     flex: none;

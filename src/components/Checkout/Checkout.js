@@ -1,12 +1,12 @@
 import { collection, query, where, documentId, getDocs, writeBatch, addDoc } from "firebase/firestore"
-import { useCart } from "../../context/CartContext"
+import { useCart } from "../../data/context/CartContext"
 import { db } from "../../services/firebase/firebaseConfig"
 import { useState } from 'react'
 import { useNotification } from "../../notification/NotificationService"
 
 import { useNavigate } from "react-router-dom"
 
-import ContactForm from "../ContactForm/ContactForm"
+import ContactForm from "../CheckoutForm/CheckoutForm"
 
 const Checkout = () => {
     const [orderId, setOrderId] = useState('')

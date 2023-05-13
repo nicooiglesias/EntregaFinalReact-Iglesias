@@ -8,7 +8,7 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import Cart from './components/Cart/Cart';
 import Checkout from './components/Checkout/Checkout';
 
-import { CartProvider } from './context/CartContext';
+import { CartProvider } from './data/context/CartContext';
 
 import { NotificationProvider } from './notification/NotificationService';
 import { Toaster } from "react-hot-toast";
