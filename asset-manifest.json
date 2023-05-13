@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/EntregaFinalReact-Iglesias/static/css/main.bf6c553b.css",
-    "main.js": "/EntregaFinalReact-Iglesias/static/js/main.3fd5f461.js",
+    "main.css": "/EntregaFinalReact-Iglesias/static/css/main.529c368d.css",
+    "main.js": "/EntregaFinalReact-Iglesias/static/js/main.2b931be1.js",
     "static/js/787.9353e9f3.chunk.js": "/EntregaFinalReact-Iglesias/static/js/787.9353e9f3.chunk.js",
     "index.html": "/EntregaFinalReact-Iglesias/index.html",
     "static/media/cart.svg": "/EntregaFinalReact-Iglesias/static/media/cart.05dfd14f0943edf68c9a30788565c795.svg",
-    "main.bf6c553b.css.map": "/EntregaFinalReact-Iglesias/static/css/main.bf6c553b.css.map",
-    "main.3fd5f461.js.map": "/EntregaFinalReact-Iglesias/static/js/main.3fd5f461.js.map",
+    "main.529c368d.css.map": "/EntregaFinalReact-Iglesias/static/css/main.529c368d.css.map",
+    "main.2b931be1.js.map": "/EntregaFinalReact-Iglesias/static/js/main.2b931be1.js.map",
     "787.9353e9f3.chunk.js.map": "/EntregaFinalReact-Iglesias/static/js/787.9353e9f3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bf6c553b.css",
-    "static/js/main.3fd5f461.js"
+    "static/css/main.529c368d.css",
+    "static/js/main.2b931be1.js"
   ]
 }
