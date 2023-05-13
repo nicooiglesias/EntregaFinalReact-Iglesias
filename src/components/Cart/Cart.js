@@ -8,13 +8,16 @@ const Cart = () => {
     return (
         <div>
             <h1 className="titulo">Detalles de compra</h1>
+            <div class={styles.card}>
+            <div class={styles.cardOverlay}></div>
+            <div class={styles.cardInner}>
             
             <div className={styles.carrito}>
                 {
                     cart.map(prod => {
                         return (
-                            <div  key={prod.id}>
-                                <h2>{prod.nombre}</h2>
+                            <div key={prod.id}>
+                                <h2 className={styles.nombreRopa}>{prod.nombre}</h2>
                                 <h2>${prod.precio} x Unidad</h2>
                                 <h2>Cantidad: {prod.quantity}</h2>
                                 <div className={styles.ItemAction}>
@@ -26,7 +29,8 @@ const Cart = () => {
                     })
                 }
             </div>
-
+            </div>
+            </div>
             <h1>Total de la compra: ${total}</h1>
             <Link to='/checkout' className={styles.boton}>Checkout</Link>
             <button className={styles.boton} onClick={() => clearCart()}>Vaciar carrito</button>
